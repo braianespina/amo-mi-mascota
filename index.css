@@ -65,11 +65,16 @@ header .logo{
     padding: 25px 30px;
     display: flex;
     color: rgb(10, 10, 10);
-    font-size: 2.6em;
+    font-size: 2.6vh;
     font-weight: bold;
     
 
+    
+
 }
+
+
+
   
 header  img{
     height: 200px;
@@ -279,7 +284,7 @@ footer .container{
 
 }
 
-@media (min-width:720px){
+@media screen and (min-width: 768px){ 
 
 header{
     position: fixed;
@@ -376,17 +381,11 @@ header nav{
 flex-direction: column;
 }
 
-#instalaciones h3{
-    
-}
-
-#instalacions .container{
-}
-
 
 
 
 }
+
 
 
 
